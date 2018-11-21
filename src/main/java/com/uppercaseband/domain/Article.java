@@ -32,6 +32,8 @@ public class Article {		//domain object (POJO)
 	
 	private String description;
 	
+	private Integer displayOrder;
+	
 	
 	@OneToOne(cascade = CascadeType.ALL)	//will cascade down to related media
 	private Media media;
