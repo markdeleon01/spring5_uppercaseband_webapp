@@ -5,6 +5,8 @@ package com.uppercaseband.services;
 
 import java.util.stream.Collectors;
 
+import org.springframework.stereotype.Service;
+
 import com.uppercaseband.api.v1.mapper.ArticleMapper;
 import com.uppercaseband.api.v1.model.ArticleListDTO;
 import com.uppercaseband.domain.Category;
@@ -14,6 +16,8 @@ import com.uppercaseband.repositories.ArticleRepository;
  * @author markdeleon
  *
  */
+
+@Service
 public class ArticleServiceImpl implements ArticleService {
 
 	private final ArticleMapper articleMapper;
