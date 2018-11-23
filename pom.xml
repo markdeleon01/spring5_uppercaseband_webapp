@@ -73,6 +73,13 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
+			<plugin> 
+			    <artifactId>maven-surefire-plugin</artifactId>
+			    <!--Note your version number might be different-->
+			     <configuration> 
+			       <useSystemClassLoader>false</useSystemClassLoader>
+			     </configuration>
+			</plugin>
 			<plugin>
 				<groupId>org.codehaus.mojo</groupId>
 				<artifactId>cobertura-maven-plugin</artifactId>
