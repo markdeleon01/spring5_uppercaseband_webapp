@@ -41,7 +41,7 @@ public class ArticleControllerTest {					//this is essentially an integration te
 	ArticleService articleService;						//instead of MockitoAnnotations.initMocks(this);
 
     @Autowired
-    MockMvc mockMvc; //provided by Spring Context
+    MockMvc mockMvc; //provided by Spring Context because of @WebMvcTest annotation
 	
 	ArticleDTO article1;
 	ArticleDTO article2;
