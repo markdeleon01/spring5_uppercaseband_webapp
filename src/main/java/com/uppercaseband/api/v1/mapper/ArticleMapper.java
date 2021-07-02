@@ -14,7 +14,7 @@ import com.uppercaseband.domain.Article;
  *
  */
 
-@Mapper		//this mapper is implemented via MapStruct
+@Mapper(uses=MediaMapper.class)		//this mapper is implemented via MapStruct
 public interface ArticleMapper {
 	
 	ArticleMapper INSTANCE = Mappers.getMapper(ArticleMapper.class);
