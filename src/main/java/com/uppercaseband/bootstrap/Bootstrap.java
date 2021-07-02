@@ -46,7 +46,6 @@ public class Bootstrap implements CommandLineRunner {	//the CommandLineRunner is
     	article1.setSubcontent("<a href='https://open.spotify.com/artist/6h4pjpssOa3fBNiQmSkgOB?si=lbGJiYu7R_6ouDMIs7Jv3A'>CHECK IT OUT</a>");
     	
     	Media article1Media = new Media();
-    	article1Media.setArticle(article1);
     	article1Media.setType(MediaType.IMAGE);
     	article1Media.setPath("/images/tanging_ikaw.png");
     	
@@ -62,7 +61,7 @@ public class Bootstrap implements CommandLineRunner {	//the CommandLineRunner is
     	article2.setSubcontent("<p><a href='https://www.facebook.com/pg/cyberpinoyradio/photos/?tab=album&album_id=657041557656169'>SEE EVENT PICS</a></p><p><a href='https://youtu.be/yNt0JV8or3k?list=PL0AgfLYM2K_sKTvDMqLY4sDr8Pi1zadB0'>WATCH EVENT VIDEO</a></p>");
     	
     	Media article2Media = new Media();
-    	article2Media.setArticle(article2);
+
     	article2Media.setType(MediaType.IMAGE);
     	article2Media.setPath("/images/tsw_album.png");
     	
@@ -77,9 +76,8 @@ public class Bootstrap implements CommandLineRunner {	//the CommandLineRunner is
     	article3.setCategory(Category.EVENTS);
     	
     	Media article3Media = new Media();
-    	article3Media.setArticle(article3);
     	article3Media.setType(MediaType.VIDEO);
-    	article3Media.setPath("<iframe width=\"560\" height=\"315\" src=\"//www.youtube.com/embed/ZfNUPtLtH5w\" frameborder=\"0\" allowfullscreen></iframe>");
+    	article3Media.setPath("http://www.youtube.com/embed/ZfNUPtLtH5w");
     	
     	article3.setMedia(article3Media);
     	articleRepository.save(article3);

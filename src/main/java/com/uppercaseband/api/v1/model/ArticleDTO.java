@@ -23,6 +23,11 @@ public class ArticleDTO {		//DTO:  Data Transfer Object
 	
 	private String description;
 	
+	@JsonProperty("display_order")
+	private int displayOrder;
+	
+	private String category;
+	
 	@JsonProperty("sub_content")
 	private String subcontent;
 	
