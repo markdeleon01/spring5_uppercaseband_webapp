@@ -15,3 +15,5 @@ they are stored in an H2 in-memory database and retrieved via JPA (relational da
 
 The article resources are exposed with the API route:
 http://localhost:8080/api/v1/articles
+
+JUnit4 tests were written to assert functionalities of the mapper, service, and controller classes.
