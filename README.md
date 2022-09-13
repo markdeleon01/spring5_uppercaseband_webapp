@@ -1,4 +1,4 @@
-# Spring5 MVC Rest web application for UPPERCASE band website
+# Spring5 MVC REST backend web application for UPPERCASE band website
 
 
 [![CircleCI](https://circleci.com/gh/markdeleon01/spring5_uppercaseband_webapp.svg?style=svg)](https://circleci.com/gh/markdeleon01/spring5_uppercaseband_webapp)
