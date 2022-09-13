@@ -11,7 +11,7 @@ This is a Spring Boot web application that serves up articles regarding the UPPE
 
 The articles are categorized and displayed according to the various sections of the website,
 such as highlights on the home page, events, discography section, and band information section;
-they are stored in an H2 in-memory database.
+they are stored in an H2 in-memory database and retrieved via JPA (relational database).
 
 The article resources are exposed with the API route:
 http://localhost:8080/api/v1/articles
